@@ -1,7 +1,0 @@
-# Configuration for chart-releaser
-# Enable automatic generation of release notes
-generate-release-notes: true
-
-# Repository configuration
-owner: open-telemetry
-git-repo: opentelemetry-helm-charts

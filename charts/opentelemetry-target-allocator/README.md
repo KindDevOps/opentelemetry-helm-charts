@@ -13,7 +13,7 @@ in kubernetes cluster.
 Add OpenTelemetry Helm repository:
 
 ```console
-helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+helm repo add open-telemetry https://kinddevops.github.io/opentelemetry-helm-charts
 ```
 
 To install the chart with the release name my-target-allocator, run the following command:

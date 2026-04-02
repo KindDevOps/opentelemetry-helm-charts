@@ -30,7 +30,7 @@ certificate that the API server is configured to trust. There are a few differen
 ## Add Repository
 
 ```console
-$ helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
+$ helm repo add open-telemetry https://kinddevops.github.io/opentelemetry-helm-charts
 $ helm repo update
 ```
 

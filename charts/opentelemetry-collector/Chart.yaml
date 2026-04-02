@@ -11,5 +11,6 @@ maintainers:
   - name: dmitryax
   - name: jaronoff97
   - name: TylerHelmuth
+  - name: KindDevOps
 icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
 appVersion: 0.147.0
