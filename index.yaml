@@ -1,0 +1,102 @@
+apiVersion: v1
+entries:
+  opentelemetry-collector:
+  - apiVersion: v2
+    appVersion: 0.147.0
+    created: "2026-04-02T13:06:46.43420165Z"
+    description: OpenTelemetry Collector Helm chart for Kubernetes
+    digest: 0de0c5ac48e80c36a30c137fe47f5eca723ea34cad1d832eaa1505536f46ca80
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    - name: KindDevOps
+    name: opentelemetry-collector
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-collector
+    - https://github.com/open-telemetry/opentelemetry-collector-contrib
+    type: application
+    urls:
+    - https://github.com/KindDevOps/opentelemetry-helm-charts/releases/download/opentelemetry-collector-0.147.1/opentelemetry-collector-0.147.1.tgz
+    version: 0.147.1
+  opentelemetry-ebpf:
+  - apiVersion: v2
+    appVersion: v0.10.2
+    created: "2026-04-02T13:06:46.646040707Z"
+    description: OpenTelemetry eBPF Helm chart for Kubernetes
+    digest: 68d04d5559489efdecfa1d72441908191f6aa53c9e7600cacdb96bf4f84fd7f6
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    - name: nicolastakashi
+    name: opentelemetry-ebpf
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-ebpf
+    type: application
+    urls:
+    - https://github.com/KindDevOps/opentelemetry-helm-charts/releases/download/opentelemetry-ebpf-0.1.6/opentelemetry-ebpf-0.1.6.tgz
+    version: 0.1.6
+  opentelemetry-ebpf-instrumentation:
+  - apiVersion: v2
+    appVersion: v0.6.0
+    created: "2026-04-02T13:06:46.829341129Z"
+    description: OpenTelemetry eBPF instrumentation Helm chart for Kubernetes
+    digest: 6e293e94648dbdafab472e73624c1b4bec70400aafa015b9372ba754e42b9a39
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    - name: nimrodavni78
+    name: opentelemetry-ebpf-instrumentation
+    sources:
+    - https://github.com/coralogix/opentelemetry-helm-charts
+    - https://github.com/open-telemetry/opentelemetry-helm-charts
+    type: application
+    urls:
+    - https://github.com/KindDevOps/opentelemetry-helm-charts/releases/download/opentelemetry-ebpf-instrumentation-0.6.0/opentelemetry-ebpf-instrumentation-0.6.0.tgz
+    version: 0.6.0
+  opentelemetry-operator:
+  - apiVersion: v2
+    appVersion: 0.148.0
+    created: "2026-04-02T13:06:47.22409904Z"
+    description: OpenTelemetry Operator Helm chart for Kubernetes
+    digest: 9d1f4d5bb3530fa2211d2f7edf672d5069e0df22774f2edbd80e59e961fd454e
+    home: https://opentelemetry.io/
+    icon: https://raw.githubusercontent.com/cncf/artwork/a718fa97fffec1b9fd14147682e9e3ac0c8817cb/projects/opentelemetry/icon/color/opentelemetry-icon-color.png
+    maintainers:
+    - name: Allex1
+    - name: dmitryax
+    - name: jaronoff97
+    - name: TylerHelmuth
+    name: opentelemetry-operator
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-operator
+    type: application
+    urls:
+    - https://github.com/KindDevOps/opentelemetry-helm-charts/releases/download/opentelemetry-operator-0.109.0/opentelemetry-operator-0.109.0.tgz
+    version: 0.109.0
+  opentelemetry-target-allocator:
+  - apiVersion: v2
+    appVersion: 0.126.0
+    created: "2026-04-02T13:06:47.429803292Z"
+    description: OpenTelemetry Target Allocator Helm chart for Kubernetes
+    digest: ccb64bca4f6bcbd96afae590742826abe9955c287435bf937a5994172c663b75
+    home: https://opentelemetry.io/
+    icon: https://opentelemetry.io/img/logos/opentelemetry-logo-nav.png
+    maintainers:
+    - name: atoulme
+    name: opentelemetry-target-allocator
+    sources:
+    - https://github.com/open-telemetry/opentelemetry-operator
+    type: application
+    urls:
+    - https://github.com/KindDevOps/opentelemetry-helm-charts/releases/download/opentelemetry-target-allocator-0.127.1/opentelemetry-target-allocator-0.127.1.tgz
+    version: 0.127.1
+generated: "2026-04-02T13:06:47.429808271Z"
